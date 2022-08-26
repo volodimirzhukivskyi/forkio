@@ -1,0 +1,60 @@
+
+.description-app {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #8D81AC;
+    text-align: center;
+    padding: 100px 0 36px 0;
+  }
+&__title_hidden{
+  font-size: 48px;
+  font-weight: 700;
+  color: #8D81AC;
+  text-align: center;
+  display: none}
+  &__img {overflow: hidden;
+    right: -11px;
+    position: relative;
+    margin-top: 28px;
+  }
+  &__img-style{
+    min-height: 381px;
+
+    max-width: 167%;
+  }
+}
+
+.item-description {
+  text-align: center;
+  padding-bottom: 36px;
+
+  &__icon {
+    display: inline-block;
+    width: 120px;
+  }
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__title {
+    padding-top: 23px;
+    color: #323232;
+    font-size: 16px;
+  }
+
+  &__text {
+    padding-top: 14px;
+    color: #848E97;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

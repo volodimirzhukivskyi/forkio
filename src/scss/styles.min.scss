@@ -1,0 +1,21 @@
+@import "reset";
+.font{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+  .container {
+  max-width: 1200px;
+  min-width: 300px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+@import "sections/content-top";
+@import "sections/app-description";
+@import "sections/app-price";
+@import "selection/header";
+@import "selection/testimnials";
+@import "all-media";
+@import "media";
